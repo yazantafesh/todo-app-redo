@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Form from '../form/Form';
-import Header from '../header/Header';
+
 import List from '../list/List';
 import { v4 as uuid } from 'uuid';
 import "@blueprintjs/core/lib/css/blueprint.css";
+
 
 const ToDo = () => {
 
@@ -41,7 +42,6 @@ const ToDo = () => {
 
   return (
     <>
-      <Header />
       <h1>To Do List: {incomplete} Items Pending</h1>
       <Form addItem={addItem} />
       <List list={list} toggleComplete={toggleComplete} />

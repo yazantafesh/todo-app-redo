@@ -8,7 +8,8 @@ function Header() {
         <Navbar.Heading>To-Do List</Navbar.Heading>
         <Navbar.Divider />
         <a href="/"><Button className="bp3-minimal" icon="home" text="Home" /></a>
-        <a href="/settings"><Button className="bp3-minimal" icon="cog" text="Settings" /></a>             </Navbar.Group>
+        <a href="/settings"><Button className="bp3-minimal" icon="cog" text="Settings" /></a>
+      </Navbar.Group>
     </Navbar>
 
   )
