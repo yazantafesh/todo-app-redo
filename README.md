@@ -26,9 +26,9 @@
 
 ## Links
 
-  Sandbox Deployment Link: 
+  Sandbox Deployment Link: https://codesandbox.io/s/loving-moon-q3jlo
 
-  Pull Request: 
+  Pull Request: https://github.com/yazantafesh/todo-app-redo/pull/1
 
 ## UML
 
