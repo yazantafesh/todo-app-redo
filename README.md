@@ -26,7 +26,7 @@
 
 ## Links
 
-  Sandbox Deployment Link: https://codesandbox.io/s/eloquent-carson-w5h18
+  Sandbox Deployment Link: 
 
   Pull Request: https://github.com/yazantafesh/todo-app-redo/pull/5
 
