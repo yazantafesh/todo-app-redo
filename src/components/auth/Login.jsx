@@ -27,7 +27,7 @@ const Login = () => {
         <button onClick={contextType.logout} style={{ borderRadius: '5px', width: '70px', height: '30px' }}>Logout</button>
       </Then>
       <Else>
-        <form onSubmit={handleSubmit} style={{marginLeft: '500px'}}>
+        <form onSubmit={handleSubmit} style={{marginLeft: '50px'}}>
           <input type="text" name="username" placeholder="Enter Username" onChange={changeUsername} style={{ borderRadius: '5px', width: '120px', margin: '13px' }} />
           <input type="text" name="password" placeholder="Enter Password" onChange={changePassword} style={{ borderRadius: '5px', width: '120px', margin: '13px' }} />
           <button style={{ borderRadius: '5px', width: '70px', height: '30px',  }}>Login</button>
