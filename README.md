@@ -26,7 +26,7 @@
 
 ## Links
 
-  Sandbox Deployment Link: https://codesandbox.io/s/bold-sky-zkdzp
+  Sandbox Deployment Link: https://codesandbox.io/s/pensive-lalande-22koe
 
   Pull Request: https://github.com/yazantafesh/todo-app-redo/pull/5
 
