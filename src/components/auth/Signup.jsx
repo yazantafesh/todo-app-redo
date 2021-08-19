@@ -37,7 +37,7 @@ const SignUp = () => {
 			</Then>
 			<Else>
 				
-				<form onSubmit={handleSubmitSignup} style={{marginLeft: '200px'}}>
+				<form onSubmit={handleSubmitSignup} style={{marginLeft: '50px'}}>
 					<input type="text" name="username" placeholder="Enter Username" onChange={changeUsername}
 					 style={{ borderRadius: '5px', width: '120px', margin: '13px'}}/>
 					<input type="password"	name="password" placeholder="Enter password" onChange={changePassword}  style={{ borderRadius: '5px', width: '120px', margin: '13px' }}/>
