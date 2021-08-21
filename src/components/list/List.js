@@ -1,5 +1,6 @@
 import React,{useState,useContext,useEffect} from 'react'
 import {settingContext} from '../../context/settings.js';
+import Button from 'react-bootstrap/Button'
 
 function List(props) {
     const settingsContext = useContext(settingContext);
@@ -29,7 +30,7 @@ function List(props) {
             setActiveList(temp.slice(start,end));
             setNumOfPages(Math.ceil(temp.length/settingsContext.itemPerPage))
         }
-    },[activePage,settingsContext.showCompleted]);
+    },[activePage,settingsContext.showCompleted,activeList]);
 
     function changeActivePage(num){
         setActivePage(num);
@@ -51,11 +52,12 @@ function List(props) {
         <div>
             <button onClick={toggleView} >View Completed: {settingsContext.showCompleted.toString()}</button>
             {activeList.map(item => (
-        <div key={item.id}>
+        <div key={item._id}>
           <p>{item.text}</p>
           <p><small>Assigned to: {item.assignee}</small></p>
           <p><small>Difficulty: {item.difficulty}</small></p>
-          <div onClick={() => props.toggleComplete(item.id)}>Complete: {item.complete.toString()}</div>
+          <div onClick={() => props.toggleComplete(item._id)}>Complete: {item.complete.toString()}</div>
+          <Button variant="outline-danger" onClick={() => props.handleDelete(item._id)}>Delete</Button>
           <hr />
         </div>
       ))}

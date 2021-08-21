@@ -12,12 +12,12 @@ function Form(props) {
 
         <label>
           <span>To Do Item</span>
-          <input onChange={handleChange} name="text" type="text" placeholder="Item Details" />
+          <input onChange={handleChange} name="text" type="text" placeholder="Item Details" required />
         </label>
 
         <label>
           <span>Assigned To</span>
-          <input onChange={handleChange} name="assignee" type="text" placeholder="Assignee Name" />
+          <input onChange={handleChange} name="assignee" type="text" placeholder="Assignee Name" required/>
         </label>
 
         <label>
