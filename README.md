@@ -26,9 +26,9 @@
 
 ## Links
 
-  Sandbox Deployment Link: https://codesandbox.io/s/pensive-lalande-22koe
+  Sandbox Deployment Link: https://codesandbox.io/s/sleepy-hofstadter-y6tds
 
-  Pull Request: https://github.com/yazantafesh/todo-app-redo/pull/5
+  Pull Request: https://github.com/yazantafesh/todo-app-redo/pull/11
 
 ## UML
 
